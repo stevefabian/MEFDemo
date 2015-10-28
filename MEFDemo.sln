@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextMessage", "TextMessage\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Call", "Call\Call.csproj", "{746D3C18-D3A7-423B-8C54-00FA617816D0}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Plugins", "Plugins", "{D8324B41-5C28-42E8-B561-EBEC0D48E324}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,5 +44,10 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A9ED6DCB-212A-48B4-B1A4-B80C1C5BB5DB} = {D8324B41-5C28-42E8-B561-EBEC0D48E324}
+		{205504C5-4DE0-4E7E-BDA6-F9578DE46B36} = {D8324B41-5C28-42E8-B561-EBEC0D48E324}
+		{746D3C18-D3A7-423B-8C54-00FA617816D0} = {D8324B41-5C28-42E8-B561-EBEC0D48E324}
 	EndGlobalSection
 EndGlobal
