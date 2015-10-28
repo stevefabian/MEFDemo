@@ -1,0 +1,21 @@
+﻿@model MEF.Contracts.Person
+
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="row">
+    <div class="col-md-12">
+        <h2>MEF Demo</h2>
+
+        <h3>@Model.FirstName @Model.LastName</h3>
+
+        <ul>
+            @foreach (var m in Model.ContactMethods)
+            {
+                <li><a href="#">@Html.ActionLink(m.Name, "Submit", new {method = @m.Name})</a></li>
+            }
+        </ul>
+        @ViewBag.Status
+    </div>
+</div>
