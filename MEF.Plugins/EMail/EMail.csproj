@@ -45,7 +45,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\MEF.Contracts\MEF.Contracts.csproj">
+    <ProjectReference Include="..\..\MEF.Contracts\MEF.Contracts.csproj">
       <Project>{2a29bf8e-c20f-4bf7-8291-a9a731e53344}</Project>
       <Name>MEF.Contracts</Name>
     </ProjectReference>
